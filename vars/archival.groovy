@@ -16,7 +16,7 @@ def archival() {
           artifacts: "target/*.?ar",
           excludes: null
     ])
-
+/*
     stash name: 'everything',
             excludes: 'test-results/**',
             includes: '**'
@@ -27,5 +27,5 @@ def archival() {
         unstash 'everything'
         bat 'dir'
 
-    }
+    }*/
 }
