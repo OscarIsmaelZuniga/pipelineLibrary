@@ -9,9 +9,22 @@ def call (body) {
       stages {
          stage('checkout') {
             steps {
-               checkout scm
-               println 'Primer hello world'
-               helloWorld()
+               checkout()
+            }
+         }
+         stage('compiling packaging'){
+            steps{
+               compilePackage()
+            }
+         }
+         stage('archival'){
+            steps{
+               archival()
+            }
+         }
+         stage('Deploy to staging'){
+            steps{
+               deploy()
             }
          }
       }

@@ -20,7 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec01444-a04d-4300-aef2-15b848b1a08f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vars/archival.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/archival.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/checkout.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/checkout.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/compilePackage.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/compilePackage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/deploy.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/deploy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/helloArgs.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/helloArgs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/helloWorld.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/helloWorld.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vars/pipelineLibrary.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/pipelineLibrary.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/pipelineLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vars/pipelineLibrary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,5 +81,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598599127061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598599127061" />
   </component>
 </project>
