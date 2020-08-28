@@ -1,5 +1,3 @@
 def call(){
-    node {
-        checkout scm
-    }
+    println("hello")
 }
