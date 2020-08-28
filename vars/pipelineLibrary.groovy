@@ -9,7 +9,8 @@ def call (body) {
       stages {
          stage('checkout') {
             steps {
-               checkout()
+               checkout scm
+               //checkout()
             }
          }
          stage('compiling packaging'){
