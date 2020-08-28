@@ -10,7 +10,8 @@ def call (body) {
          stage('checkout') {
             steps {
                checkout scm
-               println 'Hello World!'
+               println 'Primer hello world'
+               helloWorld()
             }
          }
       }
