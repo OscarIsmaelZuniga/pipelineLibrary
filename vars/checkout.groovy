@@ -1,3 +1,5 @@
 def call(){
-    checkout scm
+    node {
+        checkout scm
+    }
 }
