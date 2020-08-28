@@ -4,7 +4,7 @@ def call (body) {
    body.delegate = config
    body()
 
-   mavenPipeline {
+   pipeline {
       agent any
       stages {
          stage('checkout') {
